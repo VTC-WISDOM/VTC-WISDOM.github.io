@@ -4,13 +4,13 @@ html {
 }
 
 body {
-	background-color: #00000;
+	background-color: #000000;
 	color: #ffffff;
 	margin: auto;
 	max-width: 1200px;
 	text-align: center;
 	overflow-x: hidden;
-	
+
 }
 
 
@@ -22,3 +22,6 @@ div.pagecontent {
 	min-height: 100svh;
 }
 
+footer {
+	margin-top: auto;
+}
