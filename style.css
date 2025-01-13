@@ -1,19 +1,28 @@
+* {
+	font-family: b612;
+}
 
 html {
 	overflow-y: scroll;
 }
 
 body {
-	background-color: #000000;
-	color: #ffffff;
+	background-color: #262b28;
+	color: #dcdcdc;
 	margin: auto;
 	max-width: 1200px;
-	text-align: center;
+	text-align: left;
 	overflow-x: hidden;
-
+	margin: 0% 10% 0% 10%;
 }
 
+h1, h2, h3 {
+	color: #0bed64;
+}
 
+div.titlebar {
+	text-align: center;
+}
 
 div.pagecontent {
 	display: flex;
@@ -24,4 +33,33 @@ div.pagecontent {
 
 footer {
 	margin-top: auto;
+}
+
+a:link {
+	color: #f6a53b;
+}
+
+a:visited {
+	color: #8d5308;
+}
+
+.navbar {
+	margin: 0px auto 0px auto;
+	padding-top: 10px;
+	padding-bottom: 30px;
+	width: 100%;
+	overflow: auto;
+}
+
+.navbar a {
+	float: left;
+	padding: auto;
+	width: 25%;
+	text-align: center;
+	font-size: 120%;
+}
+
+.navbar a.active {
+	background-color: 0bed64;
+	text-decoration: none;
 }

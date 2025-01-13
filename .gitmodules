@@ -1,0 +1,3 @@
+[submodule "b612"]
+	path = b612
+	url = git@github.com:polarsys/b612.git
