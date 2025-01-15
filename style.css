@@ -9,19 +9,24 @@ html {
 body {
 	background-color: #262b28;
 	color: #dcdcdc;
-	margin: auto;
-	max-width: 1200px;
+	max-width: 75%;
 	text-align: left;
 	overflow-x: hidden;
-	margin: 0% 10% 0% 10%;
+	margin: 0% auto 0% auto;
 }
 
-h1, h2, h3 {
+h1, h2 {
 	color: #0bed64;
+}
+
+h3 {
+	color: #aebfb3;
+	text-decoration: underline;
 }
 
 div.titlebar {
 	text-align: center;
+	overflow: visible;
 }
 
 div.pagecontent {
@@ -68,4 +73,28 @@ a:visited {
 	display: block;
 	margin-right: auto;
 	margin-left: auto;
+}
+
+.leftside {
+	width: 35%;
+	float: left;
+	text-align: center;
+}
+
+.rightside {
+	width: 35%;
+	float: right;
+	margin-left: auto;
+	text-align: center;
+}
+
+.imgrow {
+	display: flex;
+	max-width: 85%;
+	margin: 0 auto 0 auto;
+}
+
+.imgcolumn {
+	flex: 50%;
+	padding: 5px;
 }
